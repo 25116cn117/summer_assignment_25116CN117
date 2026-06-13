@@ -1,0 +1,13 @@
+#include<stdio.h>(j=1)
+int main(){
+    int n=5,i,j;
+    for(i=1;i<=n;i++){
+        for(j=1;j<=n-i;j++){
+            printf(" ");
+            for(j=1;j<=2*i-1;j++){
+                printf("*");
+            }
+        }
+    }
+    return 0;
+}
